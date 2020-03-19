@@ -15,6 +15,8 @@ public class Course {
 	private String description;
 
 	private Topic topic;
+	
+	//einfach nur zum pushen
 
 	public Course() {
 

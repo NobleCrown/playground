@@ -1,8 +1,13 @@
 package com.moonlighttec.topic;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity // Jetzt erstellt JPA eine Tabelle namens Topic mit den folgenden Spalten: id, name, description
 public class Topic {
 
-	private String id;
+	@Id // damit wurde der String id zum PK deklariert
+	private String id; // primary key
 	private String name;
 	private String description;
 
